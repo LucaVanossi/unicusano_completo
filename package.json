@@ -1,0 +1,32 @@
+{
+  "name": "esempio_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clone": "^2.1.2",
+    "cloudinary": "^1.41.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-list-endpoints": "^7.1.0",
+    "git": "^0.1.5",
+    "http-errors": "^2.0.0",
+    "joi": "^17.13.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}

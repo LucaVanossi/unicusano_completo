@@ -1,0 +1,13 @@
+Npm init -y per aggiungere il package.json al progetto
+npm i express
+node src/server.js per startare il progetto
+npm i -D nodemon -D sta per DevDependecies all’interno del package.json che servono solo all’interno dello sviluppo
+aggiunto script in package.json e eseguo con npm run dev, dove dev è il nome dello script
+postman per gestire chiamate
+npm i express-list-endpoints per intabellare i vari endpoints
+npm i sequelize / npm i mssql2 utile per scrivere codice e per svolgere funzionalità sql direttamente da vs code
+npm i http-errors 
+npm i joi utile per definire uno schema di validazione
+npm i multer cloudinary multer-storage-cloudinary
+npm i -D dotenv cercherà il file e renderà disponibili le variabili nel codice
+npm i cors
